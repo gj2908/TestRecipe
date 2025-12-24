@@ -12,13 +12,7 @@ import recipes from './assets/data.js'
   <p>🚨 <strong>NEW RECIPE:</strong> Triple Chocolate Chip Cookies! 🚨</p>
 </section>
 <main>
-  <!--
-CHALLENGE: Use v-for in the <RecipeCard> component 
-           to loop through the recipe array. As a result
-		   we should see 6 recipe cards.
-EXTRA: Pass in the single recipe from the loop as the
-	   value for the recipe prop.
--->
+
 <RecipeCard v-for="recipe in recipes" :recipe/>
   
 </main>
